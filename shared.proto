@@ -10,7 +10,7 @@ message Header {
   google.protobuf.Timestamp ts = 1;
 }
 
-message Heartbeat {
+message SharedHeartbeat {
   uint64 count = 1;
 }
 
